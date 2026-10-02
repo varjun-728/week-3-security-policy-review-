@@ -1,1 +1,720 @@
+# WEEK 3 – SECURITY POLICY REVIEW
+
+## Cybersecurity Internship
+
+**Name:** Arjun Vijoy T.V.
+**Task:** Week 3 – Security Policy Review
+**Organization:** Hypothetical Organization
+**Domain:** Information Technology / Business Services
+
+---
+
+# 1. Executive Summary
+
+This report presents a review of a hypothetical organization's Information Security Policy. The purpose of the review is to identify weaknesses, gaps, and areas where the existing policy can be improved to provide stronger protection against cybersecurity threats.
+
+The reviewed policy covers important areas such as password management, access control, acceptable use of IT resources, data protection, email security, incident reporting, and employee responsibilities. However, several areas require additional detail, clearer responsibilities, stronger technical controls, and regular monitoring.
+
+The review identifies key weaknesses including insufficient password requirements, lack of multi-factor authentication requirements, unclear access review procedures, limited data classification guidelines, inadequate incident reporting details, insufficient security awareness training, and lack of clear backup and recovery requirements.
+
+Concrete recommendations are provided for each identified weakness. These recommendations focus on practical improvements such as implementing multi-factor authentication, enforcing role-based access control, conducting periodic access reviews, establishing data classification levels, improving incident reporting procedures, conducting employee security awareness training, and regularly testing backups.
+
+The recommendations are designed to make the organization's security policy clearer, more practical, measurable, and aligned with established cybersecurity practices.
+
+---
+
+# 2. Introduction
+
+Security policies provide organizations with a structured approach to protecting information, systems, employees, and business operations. A well-designed security policy defines acceptable behavior, security responsibilities, protection requirements, and procedures for responding to security incidents.
+
+For this task, a hypothetical organization's security policy was reviewed to identify weaknesses and recommend improvements.
+
+The review focuses on both technical and administrative security controls. The objective is not only to identify missing controls but also to determine whether existing requirements are sufficiently clear and practical for employees and administrators to follow.
+
+---
+
+# 3. Objectives of the Review
+
+The main objectives of this security policy review are:
+
+* Identify weaknesses and gaps in the existing security policy.
+* Evaluate whether security requirements are clearly defined.
+* Review access control and authentication requirements.
+* Examine data protection and privacy controls.
+* Evaluate incident reporting and response requirements.
+* Review employee security responsibilities.
+* Identify areas requiring stronger technical controls.
+* Recommend practical and achievable improvements.
+* Improve overall security awareness and compliance.
+
+---
+
+# 4. Scope
+
+The review covers the following areas of the hypothetical organization's security policy:
+
+* Access Control
+* Password and Authentication Security
+* Data Protection
+* Acceptable Use
+* Email and Phishing Security
+* Endpoint Security
+* Network Security
+* Incident Reporting
+* Security Awareness Training
+* Backup and Recovery
+* Third-Party Security
+* Remote Access
+* Policy Management and Compliance
+
+---
+
+# 5. Existing Security Policy – Summary
+
+The hypothetical organization's existing policy establishes basic security requirements for employees and IT users.
+
+The policy states that:
+
+* Employees must keep their passwords confidential.
+* Company systems should only be used for authorized business purposes.
+* Sensitive information should not be shared with unauthorized individuals.
+* Employees should report suspicious emails or security incidents.
+* Company devices should be protected from unauthorized access.
+* Access to organizational systems should be provided based on job responsibilities.
+* Employees should follow company security procedures.
+* Security incidents should be reported to the IT department.
+* Employees leaving the organization should return company devices and access should be removed.
+
+Although these requirements provide a basic security foundation, several areas lack sufficient detail and measurable controls.
+
+---
+
+# 6. Policy Review Methodology
+
+The security policy was reviewed using the following approach:
+
+### Step 1 – Policy Understanding
+
+The existing policy requirements were examined to understand its purpose, scope, responsibilities, and security controls.
+
+### Step 2 – Gap Identification
+
+Each major security area was evaluated to identify missing, unclear, or insufficient requirements.
+
+### Step 3 – Risk Assessment
+
+The potential security impact of each weakness was considered based on confidentiality, integrity, and availability.
+
+### Step 4 – Recommendation
+
+Practical security improvements were proposed for each identified weakness.
+
+### Step 5 – Prioritization
+
+Recommendations were categorized based on their relative priority and potential security impact.
+
+---
+
+# 7. Key Findings
+
+The major weaknesses identified during the review are:
+
+1. Weak password policy requirements.
+2. No mandatory multi-factor authentication.
+3. Limited access review procedures.
+4. Insufficient data classification requirements.
+5. Unclear incident reporting process.
+6. Limited employee security awareness requirements.
+7. Inadequate endpoint security requirements.
+8. No detailed backup testing requirements.
+9. Limited third-party security controls.
+10. Insufficient remote access security requirements.
+11. Lack of clear security monitoring requirements.
+12. No defined policy review schedule.
+
+---
+
+# 8. Detailed Policy Review
+
+## 8.1 Password and Authentication Policy
+
+### Existing Weakness
+
+The policy requires employees to keep passwords confidential but does not clearly define:
+
+* Minimum password requirements.
+* Password length.
+* Password reuse restrictions.
+* Protection against commonly used passwords.
+* Multi-factor authentication.
+* Account lockout or rate-limiting controls.
+
+### Risk
+
+Weak or reused passwords can allow attackers to compromise user accounts through credential theft, password spraying, or credential stuffing.
+
+### Recommendation
+
+The organization should:
+
+* Establish a strong password standard.
+* Encourage long and unique passwords.
+* Prevent the use of commonly compromised passwords.
+* Implement multi-factor authentication for important systems.
+* Use stronger authentication for administrators and remote access.
+* Use password managers where appropriate.
+* Monitor authentication activity for suspicious behavior.
+
+### Priority
+
+**High**
+
+---
+
+# 8.2 Access Control
+
+### Existing Weakness
+
+The policy states that access should be based on job responsibilities but does not explain how access should be approved, reviewed, modified, or removed.
+
+### Risk
+
+Excessive or outdated privileges can allow unauthorized users to access sensitive systems and information.
+
+### Recommendation
+
+The organization should implement:
+
+* Role-Based Access Control (RBAC).
+* Least-privilege access.
+* Formal access approval procedures.
+* Periodic access reviews.
+* Immediate access removal when employees leave.
+* Separate administrator and standard user accounts.
+* Privileged access monitoring.
+
+### Priority
+
+**High**
+
+---
+
+# 8.3 Data Protection
+
+### Existing Weakness
+
+The policy states that sensitive information should be protected but does not define different categories of information or specific protection requirements.
+
+### Risk
+
+Employees may not understand how different types of information should be stored, transmitted, or shared.
+
+### Recommendation
+
+Introduce a data classification system such as:
+
+* **Public** – Information intended for public distribution.
+* **Internal** – Information intended for employees.
+* **Confidential** – Business information requiring restricted access.
+* **Highly Confidential** – Sensitive information requiring strong protection.
+
+Additional controls should include:
+
+* Encryption of sensitive data.
+* Secure data transmission.
+* Restricted access.
+* Controlled data sharing.
+* Secure deletion of sensitive information.
+
+### Priority
+
+**High**
+
+---
+
+# 8.4 Acceptable Use Policy
+
+### Existing Weakness
+
+The policy provides general requirements for appropriate system usage but does not clearly define prohibited activities.
+
+### Recommendation
+
+The policy should clearly address:
+
+* Unauthorized software installation.
+* Personal use of company systems.
+* Use of unapproved cloud services.
+* Unauthorized file sharing.
+* Accessing malicious or inappropriate websites.
+* Use of removable storage devices.
+* Unauthorized modification of system configurations.
+
+Employees should acknowledge the acceptable use policy during onboarding.
+
+### Priority
+
+**Medium**
+
+---
+
+# 8.5 Email and Phishing Security
+
+### Existing Weakness
+
+Employees are instructed to report suspicious emails, but the policy does not provide detailed phishing prevention requirements.
+
+### Risk
+
+Phishing can result in credential theft, malware infections, financial fraud, and unauthorized access.
+
+### Recommendation
+
+The organization should:
+
+* Conduct regular phishing awareness training.
+* Provide an easy method for reporting suspicious emails.
+* Implement email filtering and anti-phishing controls.
+* Use attachment and link scanning.
+* Require additional verification for suspicious financial requests.
+* Conduct periodic simulated phishing exercises.
+
+### Priority
+
+**High**
+
+---
+
+# 8.6 Endpoint Security
+
+### Existing Weakness
+
+The policy requires employees to protect company devices but does not define minimum security controls.
+
+### Recommendation
+
+All company-managed endpoints should have:
+
+* Updated operating systems.
+* Regular security patches.
+* Endpoint protection software.
+* Host-based firewall protection.
+* Screen-lock requirements.
+* Disk encryption where appropriate.
+* Restricted administrative privileges.
+* Centralized security monitoring.
+
+### Priority
+
+**High**
+
+---
+
+# 8.7 Network Security
+
+### Existing Weakness
+
+The policy contains limited requirements regarding network protection.
+
+### Recommendation
+
+The organization should establish requirements for:
+
+* Firewall protection.
+* Network segmentation.
+* Secure wireless configuration.
+* VPN for approved remote access.
+* Monitoring of suspicious network activity.
+* Regular review of firewall rules.
+* Protection of critical systems from unnecessary network exposure.
+
+### Priority
+
+**High**
+
+---
+
+# 8.8 Incident Reporting
+
+### Existing Weakness
+
+The policy instructs employees to report incidents to IT but does not clearly explain:
+
+* What qualifies as an incident.
+* Who should be contacted.
+* How quickly incidents should be reported.
+* What information should be included.
+* What employees should do while waiting for assistance.
+
+### Recommendation
+
+Create a clear incident reporting procedure covering:
+
+1. Identify suspicious activity.
+2. Report the incident immediately.
+3. Provide available details.
+4. Avoid deleting or modifying evidence.
+5. Follow instructions from the incident response team.
+6. Document the incident.
+7. Conduct a post-incident review.
+
+A dedicated reporting channel should be provided to employees.
+
+### Priority
+
+**High**
+
+---
+
+# 8.9 Security Awareness Training
+
+### Existing Weakness
+
+The policy does not establish a clear schedule for security awareness training.
+
+### Recommendation
+
+Employees should receive security training:
+
+* During onboarding.
+* At least annually.
+* After major security policy changes.
+* Through periodic awareness campaigns.
+
+Training should cover:
+
+* Phishing.
+* Password security.
+* Social engineering.
+* Data protection.
+* Device security.
+* Safe internet usage.
+* Incident reporting.
+
+### Priority
+
+**Medium**
+
+---
+
+# 8.10 Backup and Recovery
+
+### Existing Weakness
+
+The policy does not provide detailed requirements for backup frequency, protection, testing, or recovery.
+
+### Risk
+
+A ransomware attack, hardware failure, or accidental deletion could result in permanent data loss.
+
+### Recommendation
+
+The organization should establish:
+
+* Regular backups of critical data.
+* Protection of backup systems from unauthorized access.
+* Secure and preferably isolated backup copies.
+* Backup monitoring.
+* Periodic restoration testing.
+* Defined recovery objectives for critical systems.
+
+### Priority
+
+**High**
+
+---
+
+# 8.11 Third-Party Security
+
+### Existing Weakness
+
+The policy provides limited requirements for vendors and external service providers.
+
+### Risk
+
+Third-party systems can introduce security vulnerabilities into the organization.
+
+### Recommendation
+
+Third-party security requirements should include:
+
+* Security assessment before onboarding critical vendors.
+* Security requirements in contracts.
+* Appropriate access restrictions.
+* Data protection requirements.
+* Incident notification requirements.
+* Periodic vendor security reviews.
+* Removal of vendor access when services end.
+
+### Priority
+
+**Medium**
+
+---
+
+# 8.12 Remote Access
+
+### Existing Weakness
+
+The policy does not provide sufficient requirements for employees accessing company systems remotely.
+
+### Recommendation
+
+Remote access should require:
+
+* Multi-factor authentication.
+* Approved remote access methods.
+* Secure VPN or equivalent controls where appropriate.
+* Company-managed devices for sensitive activities.
+* Updated endpoint protection.
+* Automatic session locking.
+* Monitoring of remote authentication activity.
+
+### Priority
+
+**High**
+
+---
+
+# 8.13 Security Monitoring
+
+### Existing Weakness
+
+The policy does not clearly define how security events should be monitored or reviewed.
+
+### Recommendation
+
+The organization should establish monitoring for:
+
+* Failed login attempts.
+* Privileged account activity.
+* Suspicious network traffic.
+* Malware detections.
+* Unusual data access.
+* Security alerts.
+* Critical system changes.
+
+Important logs should be protected from unauthorized modification and retained according to organizational requirements.
+
+### Priority
+
+**Medium**
+
+---
+
+# 8.14 Policy Review and Maintenance
+
+### Existing Weakness
+
+The policy does not define how frequently the security policy should be reviewed.
+
+### Recommendation
+
+The security policy should be reviewed at least annually and whenever there are significant:
+
+* Technology changes.
+* Business changes.
+* Regulatory requirements.
+* Security incidents.
+* Emerging cybersecurity threats.
+
+All changes should be documented and communicated to employees.
+
+### Priority
+
+**Medium**
+
+---
+
+# 9. Risk Summary
+
+| Area                 | Identified Risk               | Priority |
+| -------------------- | ----------------------------- | -------- |
+| Authentication       | Account compromise            | High     |
+| Access Control       | Unauthorized access           | High     |
+| Data Protection      | Data exposure                 | High     |
+| Phishing             | Credential theft              | High     |
+| Endpoint Security    | Malware infection             | High     |
+| Network Security     | Unauthorized network activity | High     |
+| Incident Reporting   | Delayed response              | High     |
+| Backup and Recovery  | Data loss                     | High     |
+| Remote Access        | Unauthorized remote access    | High     |
+| Security Awareness   | Human error                   | Medium   |
+| Third-Party Security | Supply-chain risk             | Medium   |
+| Monitoring           | Delayed threat detection      | Medium   |
+| Policy Maintenance   | Outdated controls             | Medium   |
+
+---
+
+# 10. Recommended Security Improvements
+
+The organization should prioritize the following improvements:
+
+### Immediate Improvements
+
+* Implement multi-factor authentication.
+* Strengthen access control.
+* Establish a formal incident reporting process.
+* Improve endpoint protection.
+* Strengthen phishing protection.
+* Implement secure backups.
+* Improve protection of sensitive information.
+
+### Medium-Term Improvements
+
+* Introduce formal data classification.
+* Conduct regular access reviews.
+* Establish third-party security assessments.
+* Improve security monitoring.
+* Conduct employee security awareness programs.
+* Establish remote access security standards.
+
+### Long-Term Improvements
+
+* Conduct regular security assessments.
+* Perform policy compliance audits.
+* Conduct incident response exercises.
+* Continuously update security controls.
+* Review emerging cybersecurity threats.
+* Establish measurable security performance indicators.
+
+---
+
+# 11. Implementation Roadmap
+
+## Phase 1 – 0 to 30 Days
+
+* Approve updated security policy.
+* Identify critical systems and information.
+* Implement MFA for privileged and remote access.
+* Establish incident reporting procedures.
+* Review current user permissions.
+* Verify critical backups.
+
+## Phase 2 – 31 to 90 Days
+
+* Implement data classification.
+* Conduct security awareness training.
+* Improve endpoint security.
+* Establish regular access reviews.
+* Review vendor security requirements.
+* Improve security monitoring.
+
+## Phase 3 – 91 to 180 Days
+
+* Conduct policy compliance assessment.
+* Test backup restoration.
+* Conduct phishing simulations.
+* Conduct an incident response exercise.
+* Review network security controls.
+* Perform a comprehensive policy review.
+
+---
+
+# 12. Policy Governance
+
+A security policy should have clearly assigned ownership.
+
+### Security Management
+
+Responsible for:
+
+* Maintaining the security policy.
+* Reviewing security risks.
+* Coordinating security improvements.
+* Monitoring compliance.
+
+### IT Department
+
+Responsible for:
+
+* Implementing technical security controls.
+* Managing systems and access.
+* Monitoring security events.
+* Applying security updates.
+
+### Employees
+
+Responsible for:
+
+* Following security requirements.
+* Protecting credentials.
+* Reporting suspicious activity.
+* Protecting company information.
+
+### Management
+
+Responsible for:
+
+* Providing resources.
+* Approving security policies.
+* Supporting security initiatives.
+* Reviewing significant security risks.
+
+---
+
+# 13. Metrics for Measuring Improvement
+
+The organization can measure policy effectiveness using:
+
+* Percentage of employees completing security training.
+* Percentage of accounts protected by MFA.
+* Number of unresolved security incidents.
+* Average incident reporting time.
+* Percentage of systems receiving security patches on time.
+* Percentage of critical systems with tested backups.
+* Number of overdue access reviews.
+* Number of phishing simulation failures.
+* Number of high-risk security findings.
+
+These metrics can help management identify areas that require additional attention.
+
+---
+
+# 14. Overall Recommendations
+
+Based on the review, the hypothetical organization should focus on improving both technical controls and employee security practices.
+
+The most important improvements are stronger authentication, least-privilege access, improved data protection, effective incident reporting, secure backups, endpoint protection, phishing awareness, and regular security monitoring.
+
+Security policies should not remain static documents. They should be regularly reviewed and updated based on organizational changes, new technologies, security incidents, and emerging threats.
+
+The organization should also ensure that employees understand the policy and receive appropriate training so that security requirements can be applied effectively in daily operations.
+
+---
+
+# 15. Conclusion
+
+The security policy review identified several areas where the hypothetical organization's existing security requirements could be strengthened.
+
+The existing policy provides a basic security foundation, but several requirements are too general and do not provide sufficient guidance for implementing effective security controls. In particular, authentication, access control, data protection, incident reporting, endpoint security, backup management, remote access, and security awareness require additional detail.
+
+The recommendations presented in this report provide practical steps for improving the organization's security posture. Implementing these recommendations in phases can help the organization reduce cybersecurity risks while maintaining manageable implementation requirements.
+
+Regular policy reviews, employee training, security monitoring, testing, and continuous improvement should become ongoing activities. A well-maintained security policy, supported by appropriate technical controls and employee awareness, can provide a stronger foundation for protecting organizational systems and information.
+
+---
+
+# 16. References
+
+1. National Institute of Standards and Technology (NIST) – Cybersecurity Framework (CSF) 2.0.
+2. National Institute of Standards and Technology (NIST) – Security and Privacy Controls for Information Systems and Organizations.
+3. National Institute of Standards and Technology (NIST) – Digital Identity Guidelines.
+4. Cybersecurity and Infrastructure Security Agency (CISA) – Cybersecurity Guidance and Best Practices.
+5. Center for Internet Security (CIS) – CIS Controls.
+
+---
+
+# 17. Final Review Checklist
+
+* [x] Existing policy reviewed.
+* [x] Security weaknesses identified.
+* [x] Risks documented.
+* [x] Practical recommendations provided.
+* [x] Improvements prioritized.
+* [x] Implementation roadmap included.
+* [x] Roles and responsibilities defined.
+* [x] Metrics included.
+* [x] Conclusion provided.
+* [x] References included.
 
